@@ -1,0 +1,148 @@
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 12px;
+  width: 90%;
+}
+.time-para {
+  color: #475569;
+  font-size: 16px;
+  font-weight: bold;
+}
+.social-logo {
+  width: 25px;
+  margin-top: 15px;
+}
+.container-2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.container-3 {
+  padding-left: 20px;
+}
+.title-para {
+  color: #475569;
+  font-size: 13px;
+  font-weight: bold;
+}
+.domain-para {
+  font-size: 13px;
+  color: #64748b;
+}
+button {
+  background-color: #ffffff;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+  width: auto;
+  margin-top: 26px;
+}
+.delete-logo {
+  width: 25px;
+}
+
+@media (min-width: 576px) {
+  .time-para {
+    font-size: 23px;
+  }
+  .social-logo {
+    width: 40px;
+    margin-top: 20px;
+  }
+  .title-para {
+    font-size: 20px;
+  }
+  .domain-para {
+    font-size: 20px;
+  }
+  .delete-logo {
+    width: 40px;
+  }
+  button {
+    margin-top: 26px;
+  }
+}
+
+@media (min-width: 768px) {
+  .time-para {
+    font-size: 18px;
+  }
+  .social-logo {
+    width: 30px;
+  }
+  .title-para {
+    font-size: 15px;
+  }
+  .domain-para {
+    font-size: 15px;
+  }
+  .delete-logo {
+    width: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .time-para {
+    font-size: 18px;
+  }
+  .social-logo {
+    width: 30px;
+  }
+  .title-para {
+    font-size: 15px;
+  }
+  .domain-para {
+    font-size: 15px;
+  }
+  .delete-logo {
+    width: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .time-para {
+    font-size: 18px;
+  }
+  .social-logo {
+    width: 30px;
+  }
+  .title-para {
+    font-size: 15px;
+  }
+  .domain-para {
+    font-size: 15px;
+  }
+  .delete-logo {
+    width: 30px;
+  }
+}
+
+@media (min-width: 768px), (min-width: 992px), (min-width: 1200px) {
+  .list-item {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    padding: 15px;
+  }
+  .container-0 {
+    display: flex;
+    align-items: center;
+  }
+  .container-2 {
+    align-items: center;
+  }
+  .container-3 {
+    display: flex;
+    align-items: center;
+  }
+  .social-logo {
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+  button {
+    margin-top: 0px;
+  }
+}
